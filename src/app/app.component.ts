@@ -38,7 +38,7 @@ export class AppComponent implements AfterViewInit {
   }
 
 	ngAfterViewInit(): void {
-		console.log("made by hasan antakly")
+		console.log("made by hasan antakly.")
 
 	let textWrapper2 = document.querySelector('.c1');
 	textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='el' style='display:inline-block;'>$&</span>");
